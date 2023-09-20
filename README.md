@@ -17,7 +17,7 @@
 ## Using Docker Image
 
 ````
-docker pull SarkarEmili/DockerPerformanceFramework:JmeterLatest
+docker pull SarkarEmili/dockerperformanceframework:JmeterLatest
 
 
 docker run -v C:/Users/tan.zj/Documents/GitHub/job_research-load-testing/jmeter/jmeter-base:/workspace swethapn14/repo_perf:JmeterLatest -Jthreads=10 -Jrampup=20 -n -t /workspace/simulations/sample_plan_2.jmx -l /workspace/logs/result.csv -e -o /workspace/html/Report
