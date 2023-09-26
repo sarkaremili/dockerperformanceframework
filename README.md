@@ -9,9 +9,9 @@ Docker: Make sure you have Docker engine and Docker Desktop installed.
 ## Usage
 To run Apache JMeter in Docker, follow these steps:
 
-Download the Script:Download the script folder from the Git repository.
+- Download the Script:Download the script folder from the Git repository.
 
-Prepare Result Folders: Create two additional folders to store the JMeter results - one for raw results and another for the HTML report.
+- Prepare Result Folders: Create two additional folders to store the JMeter results - one for raw results and another for the HTML report.
 
 ## Execute the Script: Run the following command to execute the script (modify the paths and script name as needed):
 
@@ -25,14 +25,14 @@ docker run --name jmeter \
   -l /jmeter/results/testresults.jtl \
   -e -o /jmeter/html/htmlreport
 ````
-Access the Reports: You can now access the test reports from your local result folder and the HTML report folder.
+- Access the Reports: You can now access the test reports from your local result folder and the HTML report folder.
 
-Copy Test Results: If you want to copy the test results from the Docker container to your local folder, use the following command:
+- Copy Test Results: If you want to copy the test results from the Docker container to your local folder, use the following command:
 
 ````
 docker cp jmeter:/jmeter/results/testresults.jtl /path/to/your/results
 ````
-View Results in Terminal: To view the results directly in the terminal, you can use the following command:
+- View Results in Terminal: To view the results directly in the terminal, you can use the following command:
 
 ````
 cat /path/to/your/results/testresults.jtl
