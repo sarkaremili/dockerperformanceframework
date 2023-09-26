@@ -6,7 +6,7 @@ Before running JMeter in Docker, please ensure that you have the following prere
 
 - **Docker**: Make sure you have Docker engine and Docker Desktop installed.
 
-## Usage
+## Usage(Operating system-Linux)
 To run Apache JMeter in Docker, follow these steps:
 
 1.**Download the Script**:Download the script folder from the Git repository.
