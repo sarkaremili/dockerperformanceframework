@@ -30,13 +30,12 @@ docker run --name jmeter \
 
 5.**View Results in Terminal**: To view the results directly in the terminal, you can use the following step:
 
-  - Copy Test Results:Copy the test results from the Docker container to your local folder, use the following command:
+  - **Copy Test Results**:Copy the test results from the Docker container to your local folder, use the following command:
 
 ````
 docker cp jmeter:/jmeter/results/testresults.jtl /path/to/your/results
 ````
-  - then use below command to see the results directly in the terminal
-
+  - **View Results**: Then, use the following command to view the results directly in the terminal
 ````
 cat /path/to/your/results/testresults.jtl
 ````
