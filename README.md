@@ -1,19 +1,19 @@
-##Running Apache JMeter in Docker
+## Running Apache JMeter in Docker
 This repository provides a guide and a script for running Apache JMeter within a Docker container. This simplifies the process of executing JMeter tests, eliminating the need for complex setup.
 
-##Prerequisites
+## Prerequisites
 Before running JMeter in Docker, please ensure that you have the following prerequisites installed:
 
 Docker: Make sure you have Docker engine and Docker Desktop installed.
 
-##Usage
+## Usage
 To run Apache JMeter in Docker, follow these steps:
 
-Download the Script: Clone or download the script folder from the Git repository.
+Download the Script:Download the script folder from the Git repository.
 
 Prepare Result Folders: Create two additional folders to store the JMeter results - one for raw results and another for the HTML report.
 
-Execute the Script: Run the following command to execute the script (modify the paths and script name as needed):
+## Execute the Script: Run the following command to execute the script (modify the paths and script name as needed):
 
 ````
 docker run --name jmeter \
