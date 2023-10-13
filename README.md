@@ -39,7 +39,7 @@ docker cp jmeter:/jmeter/results/testresults.jtl /path/to/your/results
 ````
 cat /path/to/your/results/testresults.jtl
 ````
-Now, you can easily run JMeter tests within a Docker container and access the results with ease.
+
 
 
 
